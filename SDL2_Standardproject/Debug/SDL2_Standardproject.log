@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SDL2_Standardproject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  GameManager.cpp
+c:\users\bruker\documents\visual studio 2015\projects\oppgaven\sdl2_standardproject\gamemanager.cpp(77): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\bruker\documents\visual studio 2015\projects\oppgaven\sdl2_standardproject\gamemanager.cpp(78): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\bruker\documents\visual studio 2015\projects\oppgaven\sdl2_standardproject\gamemanager.cpp(220): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\bruker\documents\visual studio 2015\projects\oppgaven\sdl2_standardproject\gamemanager.cpp(221): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  SDL2_Standardproject.vcxproj -> C:\Users\Bruker\Documents\Visual Studio 2015\Projects\Oppgaven\Debug\Oppgaven.exe
+  SDL2_Standardproject.vcxproj -> C:\Users\Bruker\Documents\Visual Studio 2015\Projects\Oppgaven\Debug\Oppgaven.pdb (Full PDB)
