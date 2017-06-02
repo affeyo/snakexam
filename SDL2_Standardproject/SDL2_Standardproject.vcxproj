@@ -42,8 +42,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>C:\Users\Bruker\Documents\Visual Studio 2015\Projects\Oppgaven\packages\SDL2_mixer-2.0.1\lib\x86;C:\Users\Bruker\Documents\Visual Studio 2015\Projects\Oppgaven\packages\SDL2_image-2.0.1\lib\x86;C:\Users\Bruker\Documents\Visual Studio 2015\Projects\Oppgaven\packages\sdl2_mixer.2.0.0\lib;C:\Users\Bruker\Documents\Visual Studio 2015\Projects\Oppgaven\packages\sdl2_mixer.2.0.0\content;C:\Users\Bruker\Documents\Visual Studio 2015\Projects\Oppgaven\packages\sdl2.2.0.5\build\native\lib\Win32\dynamic;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\Users\Bruker\Documents\Visual Studio 2015\Projects\Oppgaven\packages\SDL2_mixer-2.0.1\lib\x86;C:\Users\Bruker\Documents\Visual Studio 2015\Projects\Oppgaven\packages\SDL2_image-2.0.1\include;C:\Users\Bruker\Documents\Visual Studio 2015\Projects\Oppgaven\packages\sdl2_mixer.2.0.0\content;C:\Users\Bruker\Documents\Visual Studio 2015\Projects\Oppgaven\packages\sdl2_mixer.2.0.0\lib;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\packages\SDL2_mixer-2.0.1\lib\x86;$(ProjectDir)\packages\SDL2_image-2.0.1\lib\x86;$(ProjectDir)\packages\sdl2_mixer.2.0.0\lib;$(ProjectDir)\packages\sdl2_mixer.2.0.0\content;$(ProjectDir)\packages\sdl2.2.0.5\build\native\lib\Win32\dynamic;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)\packages\SDL2_mixer-2.0.1\lib\x86;$(ProjectDir)\packages\SDL2_image-2.0.1\include;$(ProjectDir)\packages\sdl2_mixer.2.0.0\content;$(ProjectDir)\packages\sdl2_mixer.2.0.0\lib;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -63,7 +63,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;C:\Users\Bruker\Documents\Visual Studio 2015\Projects\Oppgaven\packages\SDL2_mixer-2.0.1\lib\x86\SDL2_mixer.lib;C:\Users\Bruker\Documents\Visual Studio 2015\Projects\Oppgaven\packages\sdl2_ttf.v140.2.0.14\build\native\lib\Win32\Release\SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;$(ProjectDir)\packages\SDL2_mixer-2.0.1\lib\x86\SDL2_mixer.lib;$(ProjectDir)\packages\sdl2_ttf.v140.2.0.14\build\native\lib\Win32\Release\SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
